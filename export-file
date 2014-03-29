@@ -1,0 +1,13 @@
+
+[con scrapy podemos generar archivos con extesion csv, json, xml]
+
+	utilizando el comando 
+
+		scrapy crawl [name] -o items.ext -t ext
+
+		ejemplo
+
+		scrapy crawl craig -o items.json -t jsonlines
+		scrapy crawl craig -o items.csv -t csv
+
+[http://doc.scrapy.org/en/0.12/topics/feed-exports.html]

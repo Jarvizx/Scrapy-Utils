@@ -1,0 +1,20 @@
+
+[para extrar el html con scrapy utilizo este codigo]
+
+necesitamos la libreria 
+
+	from scrapy.selector import XmlXPathSelector
+
+ahora nuestro selector sera:
+
+	hxs.select("//html").extract()
+
+	donde hxs ya fue definido ateriormente 
+
+		def parse(self, response):
+      		hxs = XmlXPathSelector(response)
+      		...
+
++info 
+[1] http://doc.scrapy.org/en/0.12/topics/selectors.html#scrapy.selector.XPathSelector
+[2] http://doc.scrapy.org/en/latest/topics/selectors.html
