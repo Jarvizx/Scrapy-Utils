@@ -1,1 +1,8 @@
-form
+
+no tengo mucho de informacion, solo unos link.
+
+[1] http://doc.scrapy.org/en/latest/topics/request-response.html
+[2] http://stackoverflow.com/questions/17625053/how-to-send-post-data-in-start-urls-of-the-scrapy-spider
+[3] http://stackoverflow.com/questions/7169420/how-to-use-scrapy-to-simulate-login-done-through-post-request-encoded
+[4] http://stackoverflow.com/questions/11236632/scrapy-formrequest-sending-json
+[5] http://stackoverflow.com/questions/17403596/python-scrapy-cant-post-information-to-forms
